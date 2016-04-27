@@ -1,4 +1,5 @@
 # Docker-LeoFS
+[![](https://imagelayers.io/badge/paraspatel/leofs_all_in_one:1.2.21.svg)](https://imagelayers.io/?images=paraspatel/leofs_all_in_one:1.2.21 'Get your own badge on imagelayers.io')
 Docker container images for LeoFS all in one node(Manager_Master, Manager_Slave, Storage, Gateway).
 ### Installation
 ```
