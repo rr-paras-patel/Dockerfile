@@ -12,3 +12,6 @@ A repository contains Dockerfiles for various purpose and information to build a
 - [Amazon EC2 Container Registry](https://aws.amazon.com/ecr/)
 - [CoreOS Enterprise Registry](https://coreos.com/products/enterprise-registry/)
 - [Detail Pros and Cons Listed here](http://www.slant.co/topics/2436/viewpoints/6/~docker-image-private-registries~coreos-enterprise-registry)
+
+### Docker Image Analysis tools
+- [Imagelayers.io by CenturyLink](https://imagelayers.io/)
