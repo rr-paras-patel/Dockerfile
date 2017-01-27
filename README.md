@@ -89,13 +89,45 @@ Light-weight (Minimal) OS for running containers.
 
 - [cAdvisor](https://github.com/google/cadvisor)
 
-### PaaS 
+## PaaS
+* [Atlantis](https://github.com/ooyala/atlantis) - Atlantis is an Open Source PaaS for HTTP applications built on Docker and written in Go
+* [Convox Rack](https://github.com/convox/rack) - Convox Rack is open source PaaS built on top of expert infrastructure automation and devops best practices.
+* [Dcw](https://github.com/pbertera/dcw) - Docker-compose SSH wrapper: a very poor man PaaS, exposing the docker-compose and custom-container commands defined in container labels. 
+* [Deis](https://github.com/deis/deis) - Your PaaS, your rules http://deis.io/
+* [Dockhero](https://dockhero.io/) - Dockhero is a Heroku add-on which turns a Docker image into a microservice attached to the Heroku app. Currently in beta.
+* [Dokku][dokku] - Docker powered mini-Heroku in around 100 lines of Bash by [@progrium][progrium]
+* [Empire](https://github.com/remind101/empire) - A PaaS built on top of Amazon EC2 Container Service (ECS)
+* [Flynn](https://github.com/flynn/flynn) - A next generation open source platform as a service https://flynn.io/
+* [OpenShift][openshift] - An open source PaaS built on [Kubernetes][kubernetes] and optimized for Dockerized app development and deployment by [Red Hat](https://www.redhat.com/)
+* [Rancher][rancher] - Rancher is an open source project that provides a complete platform for operating Docker in production
+* [Tsuru](https://github.com/tsuru/tsuru) - Tsuru is an extensible and open source Platform as a Service software https://tsuru.io/
 
-- [Flynn](https://flynn.io/) (Docker)
-- [Deis](http://deis.io/) (Docker)
-- [dokku](https://github.com/progrium/dokku) (Docker)
-- [Cloud Foundry](http://cloudfoundry.org/index.html) (Warden)
-- [OpenShift v3](https://github.com/openshift/origin) (Docker, Kubernetes)
+## Remote Container Manager / Orchestration
+* [autodock](https://github.com/prologic/autodock) - Daemon for Docker Automation by [@prologic][prologic]
+* [blimp](https://github.com/tubesandlube/blimp) - Uses Docker Machine to easily move a container from one Docker host to another, show containers running against all of your hosts, replicate a container across multiple hosts and more. By [@defermat](https://github.com/defermat) and [@schvin](https://github.com/schvin)
+* [Capitan](https://github.com/byrnedo/capitan) - Composable docker orchestration with added scripting support by [@byrnedo](https://github.com/byrnedo).
+* [CloudSlang](http://www.cloudslang.io/) - CloudSlang is a workflow engine to create Docker process automation
+* [clusterdock](https://github.com/clusterdock/framework) - Docker container orchestration to enable the testing of long-running cluster deployments.
+* [ContainerShip](https://github.com/containership/containership) A simple container management platform [containership]
+* [CoreOS][coreos] - Linux for Massive Server Deployments https://coreos.com/
+* [Crane](https://github.com/Dataman-Cloud/crane) - Control plane based on docker built-in swarm [@Dataman-Cloud](https://github.com/Dataman-Cloud)
+* [Decking](http://decking.io/) - Decking aims to simplify the creation, organsation and running of clusters of Docker containers in a way which is familiar to developers
+* [Deploying a Containerized App on a Public Node with Mesos](https://docs.mesosphere.com/usage/tutorials/containerized-app/) - Docker plus Mesosphere provides an easy way to automate and scale deployment of containers in a production environment
+* [ElasticKube](https://github.com/ElasticBox/elastickube) - Open source management platform for Kubernetes.
+* [Fleet](https://github.com/coreos/fleet) - A Distributed init System providing low-level orchestration [coreos.com]
+* [Flocker](https://github.com/ClusterHQ/flocker) - Flocker is a data volume manager and multi-host Docker cluster management tool by [@ClusterHQ](https://github.com/ClusterHQ)
+* [Kontena](https://github.com/kontena/kontena) - Application Containers for Masses https://www.kontena.io/
+* [Kubernetes][kubernetes] - Open source orchestration system for Docker containers by Google [kubernetes] See Also [awesome-kubernetes](https://github.com/ramitsurana/awesome-kubernetes) by [@ramitsurana][ramitsurana]
+* [Maestro](https://github.com/toscanini/maestro) - Maestro provides the ability to easily launch, orchestrate and manage mulitiple Docker containers as single unit by [@tascanini](https://github.com/toscanini)
+* [Mantl](https://github.com/mantl/mantl) - Mantl is a modern platform for rapidly deploying globally distributed services [@mantl](https://github.com/mantl/)
+* [Marathon](https://mesosphere.github.io/marathon/docs/) - Marathon is a private PaaS built on Mesos. It automatically handles hardware or software failures and ensures that an app is "always on")
+* [MCollective Docker Agent](https://github.com/m4ce/mcollective-docker-agent) - Uses MCollective to orchestrate your Docker containers and images [@m4ce](https://github.com/m4ce)
+* [Nomad Project](https://www.nomadproject.io/) - Easily deploy applications at any scale. A Distributed, Highly Available, Datacenter-Aware Scheduler.
+* [Panamax](https://github.com/CenturyLinkLabs/panamax-ui/wiki) - Docker Management for Humans [panamax.io]
+* [Portainer](http://portainer.io/) - A lightweight management UI for managing your Docker host or Docker Swarm cluster
+* [Rancher](https://github.com/rancher/rancher) - Portable AWS-style infrastructure service for Docker http://rancher.com/
+* [Serf](https://github.com/hashicorp/serf) - Service orchestration and management tool by [@hashicorp](https://github.com/hashicorp)
+* [Shipyard](https://github.com/shipyard/shipyard) - Composable Docker Management http://shipyard-project.com/
 
 ## Service
 
