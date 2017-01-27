@@ -16,7 +16,7 @@ A repository contains Dockerfiles for various purpose and information to build a
 ### Docker Image Analysis tools
 - [Imagelayers.io by CenturyLink](https://imagelayers.io/)
 
-### A curated list of awesome container technologies inspired by [awesomes](https://github.com/sindresorhus/awesome).
+### A curated list of awesome container technologies inspired by awesomes.
 
 - [runc](https://github.com/opencontainers/runc)
 - [jetpack](https://github.com/3ofcoins/jetpack)
@@ -66,7 +66,7 @@ Light-weight (Minimal) OS for running containers.
 - [lattice](http://lattice.cf/index.html)
 - [Panamax](http://panamax.io/)
 - [Flocker](https://github.com/ClusterHQ/flocker)
-- [VirtKick](https://github.com/virtkick/virtkick)
+- [VirtKick](https://github.com/virtkick)
 
 ### Networking
 
