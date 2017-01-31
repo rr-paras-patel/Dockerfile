@@ -13,6 +13,24 @@ A repository contains Dockerfiles for various purpose and information to build a
 - [CoreOS Enterprise Registry](https://coreos.com/products/enterprise-registry/)
 - [Detail Pros and Cons Listed here](http://www.slant.co/topics/2436/viewpoints/6/~docker-image-private-registries~coreos-enterprise-registry)
 
+## Hosting for repositories (registries)
+Securely store your Docker images.
+* [Amazon EC2 Container Registry](https://aws.amazon.com/ecr/) Amazon EC2 Container Registry (ECR) is a fully-managed Docker container registry that makes it easy for developers to store, manage, and deploy Docker container images. 
+* [Azure Container Registry](https://azure.microsoft.com/de-de/services/container-registry/) Manage a Docker private registry as a first-class Azure resource
+* [Carina](https://getcarina.com) Bare-metal container hosting. Developed by Rackspace. Currently in Beta.
+* [Compose Registry](https://www.composeregistry.com/) - Project from [@francescou]Francesco Uliana that stores docker-compose.yml files with stack examples like LAMP/LEMP stacks, Django stacks, Flask stacks and ELK stacks for instance.
+* [Container Compliance](https://github.com/OpenSCAP/container-compliance) Open Source tool for assesing running containers and cold images for vulnerabilites and audits.
+* [Cycle.io](https://cycle.io/) Bare-metal container hosting.
+* [Docker Hub](https://hub.docker.com/) provided by Docker Inc.
+* [GCE Container Registry](https://cloud.google.com/container-registry/) Fast, private Docker image storage on Google Cloud Platform
+* [GitLab Container Registry](https://docs.gitlab.com/ce/container_registry/README.html) - Repositories focused on using it images in GitLab CI
+* [Private Docker Registry](https://private-docker-registry.com) Hosted registry service for companies with unlimited private repositories, users, teams and namespaces. Federeated identity with LDAP/AD/OAuth/SAML and VPN Tunneling.
+* [Quay.io](https://quay.io/) (part of CoreOS) - Secure hosting for private Docker repositories
+* [TreeScale](https://treescale.com/) - Build and Distriubute container based applications.
+* [Reesd](https://reesd.com/) (Docker)
+* [CoreOS Enterprise Registry](https://coreos.com/products/enterprise-registry/)
+* [Detail Pros and Cons Listed here](http://www.slant.co/topics/2436/viewpoints/6/~docker-image-private-registries~coreos-enterprise-registry)
+
 ### Docker Image Analysis tools
 - [Imagelayers.io by CenturyLink](https://imagelayers.io/)
 
@@ -74,7 +92,7 @@ Light-weight (Minimal) OS for running containers.
 * [Calico-Docker](https://www.projectcalico.org/getting-started/docker/) - Calico is a pure layer 3 virtual network that allows containers over multiple docker-hosts to talk to each other.
 * [Flannel](https://github.com/coreos/flannel/) - Flannel is a virtual network that gives a subnet to each host for use with container runtimes.
 * [Wagl](https://github.com/ahmetalpbalkan/wagl) - DNS Service Discovery for Docker Swarm (by [@ahmetalpbalkan][ahmetalpbalkan] ) http://ahmetalpbalkan.github.io/wagl/
-* [Weave][weave] (The Docker network) - Weave creates a virtual network that connects Docker containers deployed across multiple hosts.
+* [Weave](https://github.com/weaveworks/weave) (The Docker network) - Weave creates a virtual network that connects Docker containers deployed across multiple hosts.
 
 
 ## Logging
@@ -83,6 +101,16 @@ Light-weight (Minimal) OS for running containers.
 * [Logspout](https://github.com/gliderlabs/logspout) - Log routing for Docker container logs by [@gliderlabs][gliderlabs]
 * [Logsene for Docker][spm] Monitoring of Metrics, Events and Logs implemented in Node.js. Integrated [logagent-js](https://github.com/sematext/logagent-js) to detect and parse various log formats. [@sematext][sematext]
 * [Out-of-the-box Host/Container Monitoring/Logging/Alerting Stack](https://github.com/uschtwill/docker_monitoring_logging_alerting) Docker host and container monitoring, logging and alerting out of the box using cAdvisor, Prometheus, Grafana for monitoring, Elasticsearch, Kibana and Logstash for logging and elastalert and Alertmanager for alerting. Set up in 5 Minutes. Secure mode for production use with built-in [Automated Nginx Reverse Proxy (jwilder's)][nginxproxy].
+
+## Reverse Proxy
+* [docker-proxy](https://github.com/silarsis/docker-proxy) - Transparent proxy for docker containers, run in a docker container. By [@silarsis](https://github.com/silarsis)
+* [fabio](https://github.com/eBay/fabio) - A fast, modern, zero-conf load balancing HTTP(S) router for deploying microservices managed by consul. By [@eBay](https://github.com/eBay)
+* [h2o-proxy](https://github.com/zchee/h2o-proxy) - Automated H2O reverse proxy for Docker containers. An alternative to [jwilder/nginx-proxy][nginxproxy] by [@zchee](https://github.com/zchee)
+* [Let's Encrypt Nginx-proxy Companion](https://github.com/JrCs/docker-letsencrypt-nginx-proxy-companion) - A lightweight companion container for the nginx-proxy. It allow the creation/renewal of Let's Encrypt certificates automatically. By [@JrCs](https://github.com/JrCs)
+* [muguet](https://github.com/mattallty/muguet) - DNS Server & Reverse proxy for Docker environments. By [@mattallty](https://github.com/mattallty)
+* [nginx-proxy][nginxproxy] - Automated nginx proxy for Docker containers using docker-gen by [@jwilder][jwilder]
+* [Swarm Ingress Router](https://github.com/tpbowden/swarm-ingress-router) - Route DNS names to Swarm services based on labels.
+* [Træfɪk](https://traefik.io/) - Automated reverse proxy and load-balancer for Docker, Mesos, Consul, Etcd... By [@EmileVauge](https://github.com/emilevauge)
 
 
 
