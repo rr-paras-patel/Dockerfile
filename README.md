@@ -3,17 +3,8 @@
 A repository contains Dockerfiles for various purpose and information to build and run those docker images
 
 ## Container Technologies Memo for Personal Use
-### Private Registry
-- [Docker Trusted Registry](https://www.docker.com/products/docker-trusted-registry)(Full Matured and PROD ready)
-- [GitLab Registry](https://about.gitlab.com/downloads/#centos6)
-- [Quay.io](https://quay.io/) (Docker, App Container)
-- [Google Container Registry](https://cloud.google.com/tools/container-registry/) (Docker)
-- [Reesd](https://reesd.com/) (Docker)
-- [Amazon EC2 Container Registry](https://aws.amazon.com/ecr/)
-- [CoreOS Enterprise Registry](https://coreos.com/products/enterprise-registry/)
-- [Detail Pros and Cons Listed here](http://www.slant.co/topics/2436/viewpoints/6/~docker-image-private-registries~coreos-enterprise-registry)
 
-## Hosting for repositories (registries)
+### Hosting for repositories (registries)
 Securely store your Docker images.
 * [Amazon EC2 Container Registry](https://aws.amazon.com/ecr/) Amazon EC2 Container Registry (ECR) is a fully-managed Docker container registry that makes it easy for developers to store, manage, and deploy Docker container images. 
 * [Azure Container Registry](https://azure.microsoft.com/de-de/services/container-registry/) Manage a Docker private registry as a first-class Azure resource
@@ -65,10 +56,21 @@ Securely store your Docker images.
 - [opencontainers/specs](https://github.com/opencontainers/specs)
 - [appc/spec](https://github.com/appc/spec)
 
+###  Web Interface
+
+* [Docker Registry Browser](https://github.com/klausmeyer/docker-registry-browser) - Web Interface for the Docker Registry HTTP API v2 by [@klausmeyer](https://github.com/klausmeyer)
+* [Docker Registry UI](https://github.com/atc-/docker-registry-ui) - A web UI for easy private/local Docker Registry integration by [@atc-](https://github.com/atc-)
+* [docker-registry-web](https://github.com/mkuchin/docker-registry-web) - Web UI, authentication service and event recorder for private docker registry v2 by [@mkuchin](https://github.com/mkuchin)
+* [docker-swarm-visualizer](https://github.com/manomarks/docker-swarm-visualizer) - Visualizes Docker services on a Docker Swarm (for running demos).
+* [dockering-on-rails](https://github.com/Electrofenster/dockerding-on-rails) - Simple Web-Interface for Docker with a lot of features by [@Electrofenster](https://github.com/Electrofenster/)
+* [DockerUI](https://github.com/kevana/ui-for-docker) - DockerUI is a web interface to interact with the Remote API by [@crosbymichael][crosbymichael]
+* [Portus](https://github.com/SUSE/Portus) - Authorization service and frontend for Docker registry (v2) by [@SUSE](https://github.com/SUSE)
+* [Rapid Dashboard](https://github.com/ozlerhakan/rapid) - A simple query dashboard to use Docker Remote API by [@ozlerhakan](https://github.com/ozlerhakan/)
+
+
 ### OS 
 
 Light-weight (Minimal) OS for running containers.
-
 - [boot2docker](http://boot2docker.io/) 
 - [CoreOS](https://coreos.com/) from CoreOS
 - [Project Atomic](http://www.projectatomic.io/) from Red Hat
